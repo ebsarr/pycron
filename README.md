@@ -5,7 +5,6 @@ You can import it in a python program to run a function periodically.
 
 Example
 ```python
-# Create a schedule
 import datetime
 try:
     for i in Cron():
