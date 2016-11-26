@@ -30,7 +30,7 @@ c = Cron(s)
 import datetime
 def func_print(s):
     print("[%s] Printing `%s` periodically." % (datetime.datetime.now(), s)
-s.set_action(func_print, 'Hello world')
+c.set_action(func_print, 'Hello world')
 
 # We can now ask the cron to run the task periodically
 c.run()
